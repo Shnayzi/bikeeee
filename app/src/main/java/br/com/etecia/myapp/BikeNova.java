@@ -5,15 +5,12 @@ public class BikeNova {
     private int imagem;
 
     //construtor da classe
-
-
     public BikeNova(String titulo, int imagem) {
         this.titulo = titulo;
         this.imagem = imagem;
     }
 
     //métodos de acesso get e set
-
     public String getTitulo() {
         return titulo;
     }
